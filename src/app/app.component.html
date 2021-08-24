@@ -1,0 +1,36 @@
+<div id="wrapper">
+  <div id="side-nav">
+    <div class="title">
+        Angular Routing
+    </div>
+    <div class="main-menu">
+      Main Menu
+    </div>
+    <ul id="menu">
+      <li>
+        <a routerLink="dashboard" routerLinkActive="active">Dashboard</a>
+      </li>
+      <li>
+        <a routerLink="customer" routerLinkActive="active">Customer</a>
+      </li>
+      <li>
+        <a routerLink="product" routerLinkActive="active">Product</a>
+      </li>
+      <li>
+        <a routerLink="supplier" routerLinkActive="active">Supplier</a>
+      </li>
+      <li>
+        <a routerLink="shipper" routerLinkActive="active">Shipper</a>
+      </li>
+    </ul>
+  </div>
+  <div id="content">
+    <div id="header">
+
+    </div>
+    <div id="main-content">
+      <router-outlet></router-outlet>
+
+    </div>
+  </div>
+</div>
